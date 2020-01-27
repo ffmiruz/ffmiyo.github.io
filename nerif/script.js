@@ -4,7 +4,7 @@ const $a = _ => document.querySelectorAll(_)
 const process = async function() {
 	const conf = {method: "GET"}
 	let request, data, btcusd
-	request = await fetch("http://cryptomarketplot.com/api.json", conf)
+	request = await fetch("//cryptomarketplot.com/api.json", conf)
 	//request = await fetch("/test_api.json", conf)
 	data = await request.json()
 	btcusd = data[0].price_usd
