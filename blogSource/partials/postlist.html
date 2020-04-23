@@ -2,7 +2,7 @@
 <ol class="postlist" reversed>
 {{range .Routes | filterFilePath "**/posts/*.md" | sortByDate "date" | limit 10}}
     <li>
-        <a href={{.Href}}>{{.Meta.title}}</a>
+        <a href={{"//ffmiyo.github.io/blog"}}{{.Href}}>{{.Meta.title}}</a>
         <time datetime="{{.Meta.date}}">
             ({{.Meta.date}})
         </time>
