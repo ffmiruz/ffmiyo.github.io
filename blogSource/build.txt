@@ -1,0 +1,2 @@
+# Output to ffmiyo.github.io/blog
+x-tinystatic -output ../blog
