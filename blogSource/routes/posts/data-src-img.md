@@ -3,7 +3,7 @@ template: post.html
 title: data-src property in <img> tag
 date: 2020-05-05
 ---
-## Whyyy???
+### Whyyy???
 To do fancy stuffs like offloading image load to web worker
 
 `<img>` tag block application load. The browser will download all the images first before rendering page.
