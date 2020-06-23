@@ -26,4 +26,4 @@ The three fields of slice header are copied on pass, return, assign and subslice
 Empty struct `struct{}` is a struct type that has no fields. Empty struct contains no data and therefore
 consumes zero bytes of storage.
 
-So, what is returned in the N function above is the copied value of a slice header struct.S
+So, what is returned in the N function above is the copied value of a slice header struct.
